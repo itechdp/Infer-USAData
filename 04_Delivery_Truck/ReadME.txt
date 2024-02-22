@@ -1,0 +1,31 @@
+- GpsProvider - Vendor who provides GPS
+- BookingID - Unique Identification for a trip
+- Market/Regular - Type of trip. Regular - Vendors with whom we will have contract. Market - Vendor with whom we will not have contract
+- BookingID_Date - Date when booking was created
+- vehicle_no - Truck Number
+- Origin_Location - Trip start place
+- Destination_Location - Trip end place
+- Org_lat_lon - Latitude/Longitude of start place
+- Des_lat_lon - Latitude/Longitude of end place
+- Data_Ping_time - Time when we receive GPS ping
+- Planned_ETA - Planned Estimated Time of Arrival
+- Current_Location - Live location
+- DestinationLocation - Repeat of destination location
+- actual_eta - Time when the truck arrived
+- Curr_lat - current latitude - changes each time when we receive GPS ping
+- Curr_lon - current longitude - changes each time when we receive GPS ping
+- ontime - If the truck arrived on time - calculated based on Planned and Actual ETA
+- delay - If the truck arrived with a delay - calculated based on Planned and Actual ETA
+- OriginLocation_Code - Origin code
+- DestinationLocation_Code - Destination code
+- trip_start_date - Date/Time when trip started
+- trip_end_date Date/Time when trip ended - based on documentation (cant be considered for calculating delay)\
+- TRANSPORTATION_DISTANCE_IN_KM - Total KM of travel
+- vehicleType - Type of Truck
+- Minimum_kms_to_be_covered_in_a_day - Minimum KM the driver needs to cover in a day
+- Driver_Name - Driver details
+- Driver_MobileNo - Driver details
+- customerID - Customer details
+- customerNameCode - Customer details
+- supplierID - Supplier - Who provides the vehicle
+- supplierNameCode - Supplier - Who provides the vehicle
